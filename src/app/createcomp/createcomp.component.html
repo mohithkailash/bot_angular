@@ -1,0 +1,13 @@
+<form>
+    Which subreddit do you want the bot to run: 
+    <input type="text" name="subreddit" id="subreddit" [(ngModel)]="subreddit">
+    Any specific word to check on post title: 
+    <input type="text" name="keyword" id="keyword" [(ngModel)]="keyword">
+</form>
+
+    
+
+<button (click)="upvote()">Upvoter</button>
+<button>Commentor</button>
+
+<router-outlet></router-outlet>
